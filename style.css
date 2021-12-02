@@ -1,0 +1,67 @@
+/*websites used are
+    namecheap ( domain)
+    netlify( deploy)
+*/
+/*animation*/
+
+ 
+/* CSS RESET*/
+
+.portrait {
+    background-image : url(profile.jpg);
+    /* background-position : center; */
+    /* padding-top : 56.25%; 16 : 9 비율 */
+    
+}
+
+.lh{
+    line-height: 0.0;
+}
+
+body{
+    font-family: "Trirong", serif;
+    background-color:lightgrey;
+    color:black;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:lightslategrey;
+    overflow: hidden;
+
+}
+
+.nav a:hover{
+    background-color: lightsteelblue;
+}
+
+
+.nav a{
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+@media ( min-width : 768px) {
+    .portrait{
+        background-size : contain;
+        position:relative;
+        left : 0;
+        top : 0;
+        width : 120vw;
+        height : 50vh;
+        padding : 0;
+    }
+
+    .profile {
+        /* margin-top : 50vh; */
+    }
+
+}
